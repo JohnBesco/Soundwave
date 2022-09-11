@@ -37,3 +37,13 @@ body {
     text-decoration: none;
     padding: 1rem;
 }
+
+.main-nav a:hover {
+    color: #adadad;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
