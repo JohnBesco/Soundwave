@@ -40,3 +40,14 @@
         justify-content: center;
     }
 }
+
+.home-page-circle-1 {
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    background-color: rgb(251, 69, 243, .1);
+    bottom: 5vw;
+    left: 5vw;
+    z-index: -1;
+}
