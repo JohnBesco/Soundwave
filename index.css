@@ -51,3 +51,17 @@
     left: 5vw;
     z-index: -1;
 }
+
+.home-page-circle-2 {
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    background-color: rgb(47, 120, 231, .1);
+    top: 15vh;
+    left: 30vw;
+    z-index: -1;
+}
+
+
+
