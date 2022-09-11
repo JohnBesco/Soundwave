@@ -11,6 +11,12 @@ body {
     font-family: Poppins, sans-serif;
     font-size: 1.2rem;
     color: white;
+    min-height: 100vh;
+}
+
+.full-height-grow {
+    display: flex;
+    flex-direction: column;
 }
 
 .brand-logo {
