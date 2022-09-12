@@ -48,10 +48,13 @@ body {
     color: #adadad;
 }
 
-.main-header {
+.main-header, .main-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.main-footer {
     height: 140px;
 }
 
