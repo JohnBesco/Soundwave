@@ -47,3 +47,20 @@
     color: inherit;
     border-radius: 5px;
 }
+
+.input-group input:focus {
+    border-color: #2597FF;
+}
+
+@media (max-width: 900px) {
+    .join-main-section {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .join-form {
+        width: 80vw;
+        max-width: inherit;
+        margin: 2rem 0;
+    }
+}
