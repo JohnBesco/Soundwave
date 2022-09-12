@@ -64,3 +64,24 @@
         margin: 2rem 0;
     }
 }
+
+.join-page-circle-1 {
+    position: absolute;
+    overflow: hidden;
+    width: 45vw;
+    height: 45vw;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.join-page-circle-1::before {
+    content: '';
+    transform: translate(40%, 40%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: rgb(249, 96, 133, .1);
+}
+
