@@ -114,3 +114,7 @@ body {
 .button:hover {
     background-color: #278FEF;
 }
+
+.button:focus {
+    background-color: #26CBFF ;
+}
