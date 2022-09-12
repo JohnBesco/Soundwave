@@ -63,6 +63,11 @@ body {
     height: 140px;
 }
 
+.main-footer {
+    height: 70px;
+    background-color: #202027;
+}
+
 .main-footer .container {
     display: flex;
     justify-content: space-between;
