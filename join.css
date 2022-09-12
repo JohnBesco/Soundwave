@@ -22,3 +22,24 @@
     padding: 2rem 4rem;
     border-radius: 20px;
 }
+
+.input-group {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group:last-child {
+    margin-bottom: 0;
+}
+
+.input-group label {
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.input-group input {
+    outline: none;
+    background: none;
+    border: 1px solid;
+}
