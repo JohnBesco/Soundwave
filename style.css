@@ -79,6 +79,19 @@ body {
     justify-content: space-between;
 }
 
+@media (max-width: 800px) {
+    .main-footer {
+        flex-direction: column;
+        white-space: nowrap;
+        margin-left: -0.9em;
+    }
+
+    .main-footer a {
+        font-size: medium;
+    }
+}
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
