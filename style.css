@@ -47,7 +47,8 @@ body {
 }
 
 .main-nav a:hover, 
-.footer-nav a:hover
+.footer-nav a:hover,
+.brand-logo-name:hover
  {
     color: #adadad;
 }
